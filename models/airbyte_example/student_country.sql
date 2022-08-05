@@ -1,4 +1,4 @@
-{{config(materialized="table") }}
+{{config(schema='dbt_demo') }}
 with student_country_details as(
     select * from {{ source('airbytes_test', 'dbt_test') }}
 ),
