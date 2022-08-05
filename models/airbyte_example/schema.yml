@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: airbytes_test
     description: "testing airbytes using dbt"
-    database: airflow
+    database: public
     schema: public
     tables:
       - name: dbt_test
