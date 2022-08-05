@@ -4,7 +4,7 @@ sources:
   - name: airbytes_test
     description: "testing airbytes using dbt"
     database: public
-    schema: public
+    schema: dbt_demo
     tables:
       - name: dbt_test
         description: "details about students"
