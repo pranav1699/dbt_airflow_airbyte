@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: airbytes_test
+    description: "testing airbytes using dbt"
+    database: postgres
+    schema: public
+    tables:
+      - name: dbt_test
+        description: "details about students"
